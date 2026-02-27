@@ -186,6 +186,13 @@ header nav .nav-links ul a:hover {
 }
 
 
+@media (max-width: 686px) {
+    .btn{
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+}
+
 @media (max-width: 496px) {
     .box {
         width: 100%;
@@ -193,7 +200,7 @@ header nav .nav-links ul a:hover {
     }
 
     .btn{
-        padding: 8px 16px;
+        padding: 8px 12px;
         font-size: 16px;
     }
 }
