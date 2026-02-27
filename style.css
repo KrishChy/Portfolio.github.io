@@ -26,7 +26,7 @@ a {
 header {
     position: relative;
     width: 100%;
-    height: 100dvh;
+    height: 100vh;
 }
 
 header nav {
@@ -584,3 +584,4 @@ footer {
     color: var(--secondary-color);
     margin-top: 40px;
 }
+
