@@ -247,7 +247,12 @@ main {
     object-fit: cover;
 }
 
-@media (max-width: 686px) {
+@media (max-width: 686px) {
+about {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
    .about .video {
     width: 380px;
    }
