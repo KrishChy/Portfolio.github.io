@@ -192,7 +192,8 @@ header nav .nav-links ul a:hover {
         font-size: 16px;
     }
 .about .video {
-    width: 400px;
+    width: 360px;
+    height: 380px;
 }
 }
 
