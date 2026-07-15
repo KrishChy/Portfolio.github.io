@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krish Chaudhary | Portfolio</title>
+    <link rel="shortcut icon" href="img/pp.jpg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/pp.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Grain overlay -->
+    <div class="grain"></div>
+
+    <!-- Custom cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <!-- Fixed top bar -->
+    <header class="top-bar">
+        <a href="#hero" class="top-logo">KC<span class="accent">.</span></a>
+        <nav class="top-nav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Work</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- ===== HERO — Split editorial ===== -->
+    <section id="hero" class="hero">
+        <div class="hero-left">
+            <div class="hero-img-wrap">
+                <img src="img/pp.jpg" alt="Krish Chaudhary">
+            </div>
+        </div>
+        <div class="hero-right">
+            <p class="hero-label">Portfolio — 2026</p>
+            <h1 class="hero-title" data-reveal>
+                <span class="line">Krish</span>
+                <span class="line outline">Chaudhary<span class="accent">.</span></span>
+            </h1>
+            <p class="hero-role">Full Stack Developer <span class="accent">/</span> Data & AI</p>
+            <div class="hero-meta">
+                <span>smileboykrish@example.com</span>
+                <span class="accent">|</span>
+                <span>+977 9822771670</span>
+                <span class="accent">|</span>
+                <span>KTM, Nepal</span>
+            </div>
+            <div class="hero-ctas">
+                <a href="#contact" class="btn-primary">Get in Touch</a>
+                <a href="https://wa.me/message/OJIINUAUJRZXD1" class="btn-outline green">WhatsApp</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span class="scroll-line"></span>
+            <span class="scroll-text">Scroll</span>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT — Large statement ===== -->
+    <section id="about" class="about">
+        <div class="about-inner">
+            <p class="about-label">01 / About</p>
+            <h2 class="about-big" data-reveal>
+                I build things for the web<span class="accent">.</span>
+            </h2>
+            <div class="about-body">
+                <p>Hello! I'm Krish, a passionate web developer with a knack for creating elegant, responsive designs and
+                    dynamic applications. With experience in front-end technologies and a love for problem-solving, I enjoy
+                    building user-centric digital experiences that make an impact.</p>
+                <p>In my free time, I explore new frameworks, contribute to open-source, and continuously sharpen my skills.
+                    I have completed the course of responsive web design from <a href="https://freecodecamp.org">freecodecamp.org</a>
+                    &mdash; <a href="https://www.freecodecamp.org/certification/krishchaudhary/responsive-web-design">view certificate</a>.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS — Horizontal scroll strip ===== -->
+    <section id="skills" class="skills">
+        <p class="section-label">02 / Skills</p>
+        <h2 class="section-heading" data-reveal>What I Work With<span class="accent">.</span></h2>
+        <div class="skills-track-wrap">
+            <div class="skills-track">
+                <div class="skill-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                    <h3>HTML</h3>
+                    <p>Semantic markup, responsive layouts, forms & accessibility</p>
+                </div>
+                <div class="skill-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                    <h3>CSS</h3>
+                    <p>Flexbox & Grid, animations & transitions, themes</p>
+                </div>
+                <div class="skill-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                    <h3>JavaScript</h3>
+                    <p>DOM manipulation, ES6+, Fetch API & AJAX</p>
+                </div>
+                <div class="skill-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL">
+                    <h3>SQL</h3>
+                    <p>Query optimization, schema design, data analysis</p>
+                </div>
+                <div class="skill-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
+                    <h3>C++</h3>
+                    <p>OOP, memory management, STL & algorithms</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS — Staggered grid ===== -->
+    <section id="projects" class="projects">
+        <div class="projects-header">
+            <p class="section-label">03 / Selected Work</p>
+            <h2 class="section-heading" data-reveal>Projects<span class="accent">.</span></h2>
+        </div>
+        <div class="projects-grid">
+
+            <article class="project-card large">
+                <a href="https://www.nextgentech-hub.xyz/" target="_blank" class="project-link">
+                    <div class="project-img">
+                        <img src="img/project1.png" alt="NextGEN TechHub">
+                    </div>
+                    <div class="project-meta">
+                        <span class="project-num">01</span>
+                        <h3>NextGEN TechHub</h3>
+                        <p>Dynamic tech startup website with responsive design and interactive elements.</p>
+                        <span class="project-tag">HTML / CSS / JS</span>
+                    </div>
+                </a>
+            </article>
+
+            <article class="project-card">
+                <a href="https://krishchy.github.io/college.github.io/" target="_blank" class="project-link">
+                    <div class="project-img">
+                        <img src="img/project2.png" alt="College Template">
+                    </div>
+                    <div class="project-meta">
+                        <span class="project-num">02</span>
+                        <h3>College Template</h3>
+                        <p>Responsive college website to showcase academic programs and events.</p>
+                        <span class="project-tag">HTML / CSS / JS</span>
+                    </div>
+                </a>
+            </article>
+
+            <article class="project-card">
+                <a href="https://krishchy.github.io/e-commerce.github.io/" target="_blank" class="project-link">
+                    <div class="project-img">
+                        <img src="img/project3.png" alt="E-Shop Template">
+                    </div>
+                    <div class="project-meta">
+                        <span class="project-num">03</span>
+                        <h3>E-Shop Template</h3>
+                        <p>Sleek e-commerce template with modern aesthetic.</p>
+                        <span class="project-tag">HTML / CSS / JS</span>
+                    </div>
+                </a>
+            </article>
+
+            <article class="project-card large">
+                <a href="https://github.com/KrishChy/Littleheaartcafe.github.io" target="_blank" class="project-link">
+                    <div class="project-img">
+                        <img src="img/project4.png" alt="Cafe Website">
+                    </div>
+                    <div class="project-meta">
+                        <span class="project-num">04</span>
+                        <h3>Cafe Website</h3>
+                        <p>Responsive cafe template showcasing menu items and ambiance.</p>
+                        <span class="project-tag">HTML / CSS / JS</span>
+                    </div>
+                </a>
+            </article>
+
+            <article class="project-card wide">
+                <a href="https://krishchy.github.io/codes.github.io/" target="_blank" class="project-link">
+                    <div class="project-img">
+                        <img src="img/project5.png" alt="NCMTHub Social Media">
+                    </div>
+                    <div class="project-meta">
+                        <span class="project-num">05</span>
+                        <h3>NCMTHub Social Media</h3>
+                        <p>Modern college social media platform with elegant design and responsive layout.</p>
+                        <span class="project-tag">HTML / CSS / JS</span>
+                    </div>
+                </a>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="contact">
+        <div class="contact-inner">
+            <p class="section-label">04 / Contact</p>
+            <h2 class="contact-heading" data-reveal>
+                Let's Build<br>Something Together<span class="accent">.</span>
+            </h2>
+            <form action="mailto:smileboykrish@gmail.com" class="contact-form">
+                <div class="form-row">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <textarea name="message" placeholder="Tell me about your project..." rows="5" required></textarea>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/message/OJIINUAUJRZXD1" class="whatsapp-float" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 32 32" fill="currentColor" width="22" height="22">
+            <path d="M16.004 0h-.008C7.174 0 0 7.176 0 16c0 3.5 1.128 6.744 3.046 9.378L1.054 31.29l6.118-1.97A15.912 15.912 0 0016.004 32C24.83 32 32 24.822 32 16S24.83 0 16.004 0zm9.346 22.59c-.39 1.096-1.932 2.01-3.158 2.276-.84.18-1.934.322-5.626-1.206-4.724-1.954-7.762-6.744-7.994-7.056-.224-.312-1.88-2.5-1.88-4.768 0-2.268 1.192-3.384 1.616-3.846.39-.426.926-.54 1.232-.54.224 0 .424.012.606.02.512.036.804.052 1.156.888.436 1.034 1.484 3.606 1.614 3.862.13.256.26.554.076.866-.186.322-.346.518-.644.8-.298.282-.592.63-.852.952-.236.288-.484.598-.206.918.278.32 1.234 2.034 2.646 3.298 1.818 1.626 3.314 2.13 3.8 2.364.39.186.726.14 1.002-.116.35-.332.786-.88 1.222-1.416.31-.378.704-.424 1.086-.286.39.14 2.464 1.16 2.884 1.372.42.212.7.316.804.492.104.176.104 1.02-.286 2.116z"/>
+        </svg>
+    </a>
+
+    <footer>
+        <p>&copy; 2026 Krish Ch. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
